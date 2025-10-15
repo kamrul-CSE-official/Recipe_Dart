@@ -65,7 +65,7 @@ class MathUtils {
   int age;
   MathUtils(this.age);
 
-  void yourAge() => {print("Your age: $age")};
+  void yourAge() => print("Your age: $age");
 }
 
 void main() {
@@ -91,5 +91,5 @@ void main() {
 
   print(MathUtils.pi);
   print(MathUtils.square(5));
-  print(MathUtils(22).)
+  print(MathUtils(22).age);
 }
