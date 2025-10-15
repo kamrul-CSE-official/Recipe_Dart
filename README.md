@@ -1,1 +1,4 @@
-https://chatgpt.com/share/68eebf12-4f8c-8012-8670-6c3ae5290ff8
+Variables: https://chatgpt.com/share/68eebf12-4f8c-8012-8670-6c3ae5290ff8
+
+
+OOP: https://chatgpt.com/share/68eebf12-4f8c-8012-8670-6c3ae5290ff8

@@ -96,12 +96,14 @@ void main() {
   String motherName = "Shahena Akter"; //can't be null
   String? nickName; //Can be null
   nickName = "Hasan";
-  print(nickName ?? "No nickname"); // fallback
+  // print(nickName ?? "No nickname"); // fallback
+  print(nickName); // fallback
   print(motherName);
 
   String? nick;
   nick = 'Go';
-  print(nick!.length); //Error if will null
+  // print(nick!.length); //Error if will null
+  print(nick); //Error if will null
 
   late String city;
   city = "Dhaka";
