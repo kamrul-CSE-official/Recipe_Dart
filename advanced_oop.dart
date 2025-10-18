@@ -76,6 +76,25 @@ class Bike extends Vehicle {
 }
 
 // e) Interfaces (implements)
+class Sports {
+  void sports_name() {}
+}
+
+class Football implements Sports {
+  @override
+  void sports_name() => print("This is football");
+}
+
+// f) Mixins(with)
+mixin Swimmer {
+  void swim() => print("Swimming...");
+}
+
+mixin Runner {
+  void run() => print("Runnimg..");
+}
+
+class Human with Swimmer, Runner {}
 
 void main() {
   var dog = Dog();
@@ -96,4 +115,13 @@ void main() {
 
   Vehicle v = Car();
   v.start();
+
+  var spo = Sports();
+  spo.sports_name();
+  var fot = Football();
+  fot.sports_name();
+
+  var h = Human();
+  h.swim();
+  h.run();
 }
